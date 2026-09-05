@@ -1,4 +1,4 @@
-num = int(input("请输入一个整数："))
+num: int = int(input("请输入一个整数："))
 
 # 第一组：判断正负零（三选一）
 if num > 0:
