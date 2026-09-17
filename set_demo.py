@@ -1,7 +1,8 @@
 tags = ["Python", "SQL", "Python", "Linux", "SQL", "Hive", "SQL"]
 
 # 1. 去重
-unique_tags = set(tags)
+unique_tags = sorted(set(tags))
+
 print(f"不同标签：{len(unique_tags)} 个")
 print(f"去重后：{unique_tags}")
 
