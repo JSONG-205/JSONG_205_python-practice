@@ -19,18 +19,23 @@
 | Day 4 | 循环 | `multiplication.py` `guess.py` |
 | Day 5 | 列表 list | `scores.py` `shopping.py` `numbers.py` |
 | Day 6 | 字典 dict 与集合 set | `student.py` `students.py` `set_demo.py` `day06_practice.py` |
+| Day 7 | 复盘与 Git | 仓库整理、`.gitignore`、本 README |
+| Day 8 | 函数 | `day08_practice.py`；`scores.py` `bmi.py` `numbers.py` `students.py` `calc.py` 重构为函数 |
+| Day 9 | 字符串 | `day09_practice.py` |
 
 ## 目录结构
 
 ```
 python-practice/
-├── notes/                  # 学习笔记（day01 ~ day06）
+├── notes/                  # 学习笔记（day01 ~ day09）+ 00-重要知识点手册.md
 ├── hello.py                # Day 1
 ├── intro.py / calc.py / bmi.py        # Day 2
 ├── judge.py / grade.py                # Day 3
 ├── multiplication.py / guess.py       # Day 4
 ├── scores.py / shopping.py / numbers.py   # Day 5
 ├── student.py / students.py / set_demo.py / day06_practice.py  # Day 6
+├── day08_practice.py       # Day 8
+├── day09_practice.py       # Day 9
 └── README.md
 ```
 
@@ -61,8 +66,8 @@ python guess.py
 
 ## 下一步
 
-- Day 7：复盘与 Git，整理仓库
-- Day 8~14：函数、字符串、文件与 JSON、异常、模块
+- Day 10：文件读写（open / with / r-w-a 模式 / encoding）
+- Day 11~14：JSON 数据、异常与调试、模块与包、综合小项目
 - Day 15~21：类与对象、pandas
 - Day 22+：Linux → SQL → Hadoop → Hive → Spark → 离线数仓 → 实时
 
