@@ -21,3 +21,7 @@ Thumbs.db
 # ===== 日志与临时文件 =====
 *.log
 *.tmp
+# Day 10 测试文件（程序运行生成）
+day10_test.txt
+day10_copy.txt
+scores.txt
