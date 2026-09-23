@@ -25,3 +25,6 @@ Thumbs.db
 day10_test.txt
 day10_copy.txt
 scores.txt
+# Day 11 生成的 JSON
+student.json
+students.json
