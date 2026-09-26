@@ -1,4 +1,9 @@
 import json
+import os
+
+# 切换到本文件所在目录，保证下面的相对路径在任何位置运行都能找到
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 
 student = {
     "name": "张三",
@@ -27,11 +32,11 @@ student = {
     "age": 22,
     "scores": {"语文": 88, "数学": 95}
 }
-with open("student.json","w",encoding="utf-8") as f_in:
+with open("data/student.json","w",encoding="utf-8") as f_in:
     json.dump(student,f_in,ensure_ascii=False,indent=2)
 
 # 练习 4
-with open("student.json","r",encoding="utf-8") as f:
+with open("data/student.json","r",encoding="utf-8") as f:
     new_student = json.load(f)
     print(new_student)
     print(new_student["name"])
@@ -52,11 +57,11 @@ json_str = json.dumps(students, ensure_ascii=False, indent=2)
 print(json_str)
 
 # 第 2 步：写到文件
-with open("students.json", "w", encoding="utf-8") as f:
+with open("data/students.json", "w", encoding="utf-8") as f:
     json.dump(students, f, ensure_ascii=False, indent=2)
 
 # 第 3 步：读回来
-with open("students.json", "r", encoding="utf-8") as f:
+with open("data/students.json", "r", encoding="utf-8") as f:
     loaded = json.load(f)
 
 # 第 4 步：遍历打印

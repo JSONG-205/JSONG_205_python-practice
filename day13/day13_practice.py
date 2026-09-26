@@ -1,3 +1,8 @@
+import os
+
+# 切换到本文件所在目录，保证相对路径在任何位置运行都能找到文件
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 # import os
 # from datetime import datetime, date, timedelta
 #

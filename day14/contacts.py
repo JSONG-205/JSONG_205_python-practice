@@ -69,6 +69,10 @@
 import json
 import os
 
+# 切换到本文件所在目录，保证 contacts.json 在任何位置运行都能找到
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+
 def load_contacts():
     """从 contacts.json 文件加载联系人列表，文件不存在则返回空列表"""
     if not os.path.exists('contacts.json'):
